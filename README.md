@@ -44,6 +44,7 @@ Esta aplicação possui as seguintes ferramentas e bibliotecas:
 
 - **Node jS** - O Node.js é um ambiente de execução Javascript server-side.
 - **Sequelize** - É um ORM para Postgres, MySQL, MariaDB, SQLite e Microsoft SQL Server. Que oferece suporte a transações sólidas, relações, carregamento rápido e lento, replicação de leitura etc.
+- **Postgres** - É um sistema de banco de dados relacional de objeto de código aberto.
 
 ## Começando
 
