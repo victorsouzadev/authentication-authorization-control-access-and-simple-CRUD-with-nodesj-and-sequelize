@@ -9,11 +9,15 @@ const {User} = require('../src/app/models')
 routes.post('/sessions', SessionController.store)
 
 
-routes.use(authMiddleware)
+
 routes.route('/user')
     .post(UserController.create)
-    .get(admin(UserController.list))
+    
 
+routes.use(authMiddleware)
+
+routes.route('/user')
+    .get(admin(UserController.list))
 routes.route('/user/:id')
     .get(UserController.findById)
     .delete(UserController.delete)
